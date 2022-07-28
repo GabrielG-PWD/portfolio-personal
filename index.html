@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio</title>
+  <link rel="stylesheet" href="style.css" type="text/css" media="screen">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css">
+</head>
+<body class="body">
+  <div class="container">
+
+    <section class="home">
+      <div class="animated-title">
+        <div class="text-top">
+          <div>
+            <span>Web</span>
+            <span>Developer</span>
+          </div>
+        </div>
+        <div class="text-bottom">
+          <div>&#60&#92&#62 GG</div>
+        </div>
+      </div>
+    </section>
+    
+    <nav class="navbar">
+      <ul class="nav__list">
+        <li class="list__items"><a class="list__anchors"href="#">Inicio</a></li>
+        <li class="list__items"><a class="list__anchors"href="#1">Acerca de mi</a></li>
+        <li class="list__items"><a class="list__anchors"href="#2">Potfolio</a></li>
+        <li class="list__items"><a class="list__anchors"href="#3">Contacto</a></li>
+      </ul>
+    </nav>
+
+    <section class="about">
+      <h2 class="titles" id="1"><span class="titles--active">A</span>cerca de mi</h2>
+      <div class="about__content">
+        <div class="about__description">
+          <p class>Hola, soy Gabriel. Aspirante a desarrollador web y estudiante de Ingenieria en Sistemas. Actualmente estoy 
+            cursando el 2º año de la carrera. Me apasiona el mundo IT porque es un lugar donde la creatividad, la lógica y la tecnología se combina de forma excepcional para ofrecerte la oportunidad de crear cosas únicas con tu propia impronta. 
+            Nunca terminas por descubrir todo, siempre hay algo nuevo para aprender y es justamente eso lo que dispara mi curiosidad y pasión por todo este mundo.
+          </p>
+        </div>
+        <div class="about__image">
+          <img class="image__icon" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" />
+          <img class="image__icon" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" />
+          <img class="image__icon" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" />
+          <img class="image__icon" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" />
+        </div>
+      </div>
+    </section>
+
+    <section class="portfolio">
+      <h2 class="titles" id="2"><span class="titles--active">P</span>ortfolio</h2>
+      <div class="portfolio__content">
+        <div class="music__app"><a href="MusicBox/index.html"><img class="app__img" src="img\musicApp.png" alt="music"></a></div>
+        <div class="blackjack__app"><a href="BlackJack/index.html"><img class="app__img" src="img\blackJack.png" alt="blackjack"></a></div>
+        <div class="music__description">Una app para mezclar los sonidos.</div>
+        <div class="blackjack__description">El clásico juego de blackjack.</div>
+      </div>
+    </section>
+
+    <section class="contact">
+      <h2 class="titles" id="3"><span class="titles--active">C</span>ontacto</h2>
+      <form class="contact__form" action="index.html" method="post">
+        <h3 class="form__description">¿Preguntas o dudas? Dejame los detalles y voy a contactarme con vos lo más pronto que pueda.</h3>
+        <input class="form__name"type="text" name="" placeholder="Ingrese su Nombre">
+        <input class="form__email"type="email" name="" placeholder="Ingrese su Email">
+        <textarea class="form__textarea"name="" id="" cols="30" rows="10" placeholder="Escriba un Mensaje"></textarea>
+        <button class="form__submit">Enviar</button>
+      </form>     
+    </section>
+
+    <footer class="footer">
+      <div class="waves">
+        <div class="wave1 wave"></div>
+        <div class="wave2 wave"></div>
+        <div class="wave3 wave"></div>
+        <div class="wave4 wave"></div>
+      </div>
+      <ul class="social__icon">
+        <li class="social__list"><a class="social__a" href="https://github.com/GabrielG-PWD/portfolio-personal"><ion-icon name="logo-github"></ion-icon></a></li>
+      </ul>
+      <p class="footer__copy">&copy;2022 GG | All rights reserved.</p>
+    </footer>
+    
+  </div>
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
+</html>

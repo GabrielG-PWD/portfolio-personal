@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Raleway"
+      rel="stylesheet"
+    />
+    <script src="https://kit.fontawesome.com/2c36e9b7b1.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./style.css" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Caja de Sonidos</title>
+  </head>
+  <body>
+    <section class="caja-musica">
+    <button class="toggle" onclick="myFunction()">Light/Dark</button> 
+      <header>
+        <h1>Caja de sonidos</h1>
+        <p>Haz click en los botones para empezar a mezclar sonidos!</p>
+      </header>
+      <div class="visual"></div>
+      <div class="teclado">
+        <div class="tecla1">
+          <audio src="./sounds/bubbles.mp3" class="sonido"></audio>
+        </div>
+        <div class="tecla2">
+          <audio class="sonido">
+            <source src="./sounds/clay.mp3" />
+          </audio>
+        </div>
+        <div class="tecla3">
+          <audio class="sonido">
+            <source src="./sounds/confetti.mp3" />
+          </audio>
+        </div>
+        <div class="tecla4">
+          <audio class="sonido">
+            <source src="./sounds/glimmer.mp3" />
+          </audio>
+        </div>
+        <div class="tecla5">
+          <audio class="sonido">
+            <source src="./sounds/moon.mp3" />
+          </audio>
+        </div>
+        <div class="tecla6">
+          <audio class="sonido">
+            <source src="./sounds/ufo.mp3" />
+          </audio>
+        </div>
+      </div>
+    </section>
+
+    <script src="index.js"></script>
+  </body>
+</html>

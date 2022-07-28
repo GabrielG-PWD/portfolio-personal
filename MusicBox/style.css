@@ -1,0 +1,99 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Raleway", sans-serif;
+  background: rgb(228,228,177);
+  background: linear-gradient(90deg, rgba(228,228,177,1) 0%, rgba(228,173,149,1) 30%, rgba(251,255,246,1) 100%);
+}
+
+.dark-mode {
+  background: rgb(0,0,0);
+  background: linear-gradient(180deg, rgba(0,0,0,1) 0%, rgba(33,34,50,1) 43%, rgba(85,97,106,0.9808298319327731) 100%);
+  color: #8a8a8a;
+}
+.toggle {
+  margin: 10px;
+  color: white;
+  border: 1px solid gray;
+  border-radius: 10px;
+  width: 70px;
+  height: 30px;
+  background-color: #4f509e;
+  align-self: flex-end;
+}
+
+.caja-musica {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header h1 {
+  margin: 50px 0px 30px 0px;
+  text-align: center;
+  font-size: 40px;
+}
+header p {
+  font-size: 25px;
+}
+
+.teclado {
+  background: lightblue;
+  width: 100%;
+  display: flex;
+}
+.teclado > div {
+  height: 100px;
+  width: 100px;
+  flex: 1;
+}
+.tecla1 {
+  background: #60d394;
+}
+.tecla2 {
+  background: #d36060;
+}
+.tecla3 {
+  background: #c060d3;
+}
+.tecla4 {
+  background: #d3d160;
+}
+.tecla5 {
+  background: #606bd3;
+}
+.tecla6 {
+  background: #60c2d3;
+}
+
+.visual > div {
+  position: absolute;
+  bottom: 0%;
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  transform: scale(1);
+  z-index: -1;
+}
+
+@keyframes jump {
+  0% {
+    bottom: 0%;
+    left: 20%;
+  }
+  50% {
+    bottom: 50%;
+    left: 50%;
+  }
+
+  100% {
+    bottom: 00%;
+    left: 80%;
+  }
+}
